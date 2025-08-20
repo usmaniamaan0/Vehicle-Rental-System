@@ -84,7 +84,7 @@ public abstract class Vehicle {
 
 	public void showDetails()
 	{
-		System.out.println("id :" + vehicleId );
+		System.out.println("Vehicle Id :" + vehicleId );
 		System.out.println("brand : " + brand);    
 		System.out.println("model :" + model );
 		System.out.println("rent price per day :" + rentPricePerDay);  
@@ -96,3 +96,4 @@ public abstract class Vehicle {
 	public abstract double calculateRent(int days);
 
 }
+
